@@ -16,7 +16,6 @@ $ to be written
 
 or clone the repository in your computer by navigating to the directory you want to save the repo in and run the command in your terminal.
 ##### Note :- if you don't have git installed on your computer run the following command  `sudo apt install git`
-.
 
 ```sh
 $ git clone https://github.com/Muhammad-asem/Asemo-Robot
