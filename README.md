@@ -7,15 +7,16 @@ This repository contain essential files for operating and developing Asemo, it c
   - Simulation files for simulating Asemo
   - Configuration files for the ROS workspace and nodes
 
-These packages are maintained by [Muhammad Asem](https://github.com/Muhammad-asem)  and   [ziad asem](https://github.com/ziadasem)
+These packages are created by [Muhammad Asem](https://github.com/Muhammad-asem) and maintained by [Muhammad Asem](https://github.com/Muhammad-asem) and [Ziad Asem](https://github.com/ziadasem)   
 To install these packages run the following in your terminal
 
 ```sh
 $ to be written 
 ```
 
-or clone the repository in your computer by navigating to the directory you want to save the repo in and run the command in your terminal.
+or clone the repository in your computer by navigating to the directory you want to **save the repository** in and run the command in your terminal.
 ##### Note :- if you don't have git installed on your computer run the following command  `sudo apt install git`
+
 
 ```sh
 $ git clone https://github.com/Muhammad-asem/Asemo-Robot
@@ -38,4 +39,5 @@ The packages in this repository are listed below - each package has its own docu
 1. Odom pub package
    this package subscribe the odometry data from the encoder arduino
 
-These packages contain their documentation 
+### ASEMO ROS System
+Asemo SLAM consists of motor drivers for moving and kinect for observing the environment (see the [schematic](https://via.placeholder.com/800x400/C0F7E8/FF981C?text=soon)). For moving the robot, the remote laptop **is connected** to RPI and move Asemo through keyboard stroke, the keyboard stroke is published to **cmd_ve**l topic **not turtle1/cmd_vel** then the arduino node subscribe this topic and publish odometry to **odom topic**
