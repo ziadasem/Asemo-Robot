@@ -1,5 +1,5 @@
 # Arduino DC ROS file
-This is the arduino code file that makes the arduino subscribe to cmd_vel topic and pass the data to motors to move the robot using remote keyboard, while moving the robot it publishes its odometry to the remote laptop to calculate and locate Asemo. It is connected to ros nodes using  [ ros_serial package](http://wiki.ros.org/rosserial_arduino/Tutorials) . This code is simplified by means of [adafruit library](https://github.com/adafruit/Adafruit-Motor-Shield-library) . 
+This is the arduino node code file that makes the arduino node subscribe to cmd_vel topic and pass the data to motors to move Asemo using remote keyboard, while moving the robot it publishes its odometry to the remote laptop to calculate and locate Asemo. It is connected to ros nodes using  [ ros_serial package](http://wiki.ros.org/rosserial_arduino/Tutorials) . This code is simplified by means of [adafruit library](https://github.com/adafruit/Adafruit-Motor-Shield-library) . 
 
 ### Moving Asemo
 to move asemo first run  `roscore` on the host computer, networking between computers in ros system is discussed in the main documentation or in [this article](http://wiki.ros.org/ROS/Tutorials/MultipleMachines) then you should have ros_serial installed on your computer, if not install it from [here](http://wiki.ros.org/rosserial_arduino/Tutorials/Arduino%20IDE%20Setup)
