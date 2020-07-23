@@ -29,7 +29,7 @@ Arduino node is subscribing [twist messages](http://docs.ros.org/diamondback/api
  ```
 Point_msg.x=RnewPosition;
 Point_msg.y=LnewPosition;
-enc_pub.publish(&Point_msg);
+enc_pub.publish(&Point_msg)
 ```
 
 
