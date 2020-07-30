@@ -109,4 +109,4 @@ rosrun rosserial_python serial_node.py /dev/ttyACM$number
 fi #end if in shell
 ```
 
-if the commands faild to run please connect to **[Muhammad Asem](https://github.com/Muhammad-asem)** or **[Ziad Asem](https://github.com/ziadasem)**
+if the commands faild to run please contact with **[Muhammad Asem](https://github.com/Muhammad-asem)** or **[Ziad Asem](https://github.com/ziadasem)**
