@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!--Launch file to run roscore and run turtle_twist_keyboard node-->
+<launch>
+
+<node pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py" name="teleop_twist_keyboard" >
+<remap from="/turtle1/cmd_vel" to="cmd_vel"/> <!--remapping the output of the twist_keyboard node to cmd_vel topic-->
+</node>
+
+</launch>
